@@ -41,8 +41,8 @@
 		D09D2D0C1B68554500602003 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09D2D111B68554500602003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D09D2D121B68554500602003 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
-		D09D2D1C1B68602800602003 /* OSTNewClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSTNewClass.h; sourceTree = "<group>"; };
-		D09D2D1D1B68602800602003 /* OSTNewClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSTNewClass.m; sourceTree = "<group>"; };
+		D09D2D1C1B68602800602003 /* OSTNewClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSTNewClass.h; path = ../OSTNewClass.h; sourceTree = "<group>"; };
+		D09D2D1D1B68602800602003 /* OSTNewClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSTNewClass.m; path = ../OSTNewClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +66,6 @@
 		D09D2CEA1B68554500602003 = {
 			isa = PBXGroup;
 			children = (
-				D09D2D1C1B68602800602003 /* OSTNewClass.h */,
-				D09D2D1D1B68602800602003 /* OSTNewClass.m */,
 				D09D2CF51B68554500602003 /* Git Test */,
 				D09D2D0F1B68554500602003 /* Git TestTests */,
 				D09D2CF41B68554500602003 /* Products */,
@@ -86,6 +84,8 @@
 		D09D2CF51B68554500602003 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				D09D2D1C1B68602800602003 /* OSTNewClass.h */,
+				D09D2D1D1B68602800602003 /* OSTNewClass.m */,
 				D09D2CFA1B68554500602003 /* AppDelegate.h */,
 				D09D2CFB1B68554500602003 /* AppDelegate.m */,
 				D09D2CFD1B68554500602003 /* ViewController.h */,
