@@ -14,6 +14,7 @@
 		D09D2D041B68554500602003 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09D2D031B68554500602003 /* Images.xcassets */; };
 		D09D2D071B68554500602003 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D09D2D051B68554500602003 /* LaunchScreen.xib */; };
 		D09D2D131B68554500602003 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D09D2D121B68554500602003 /* Git_TestTests.m */; };
+		D09D2D1E1B68602800602003 /* OSTNewClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D09D2D1D1B68602800602003 /* OSTNewClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D09D2D0C1B68554500602003 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09D2D111B68554500602003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D09D2D121B68554500602003 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		D09D2D1C1B68602800602003 /* OSTNewClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSTNewClass.h; sourceTree = "<group>"; };
+		D09D2D1D1B68602800602003 /* OSTNewClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSTNewClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		D09D2CEA1B68554500602003 = {
 			isa = PBXGroup;
 			children = (
+				D09D2D1C1B68602800602003 /* OSTNewClass.h */,
+				D09D2D1D1B68602800602003 /* OSTNewClass.m */,
 				D09D2CF51B68554500602003 /* Git Test */,
 				D09D2D0F1B68554500602003 /* Git TestTests */,
 				D09D2CF41B68554500602003 /* Products */,
@@ -221,6 +226,7 @@
 			files = (
 				D09D2CFF1B68554500602003 /* ViewController.m in Sources */,
 				D09D2CFC1B68554500602003 /* AppDelegate.m in Sources */,
+				D09D2D1E1B68602800602003 /* OSTNewClass.m in Sources */,
 				D09D2CF91B68554500602003 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
